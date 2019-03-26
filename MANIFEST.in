@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include swisshr *.css
+recursive-include swisshr *.csv
+recursive-include swisshr *.html
+recursive-include swisshr *.ico
+recursive-include swisshr *.js
+recursive-include swisshr *.json
+recursive-include swisshr *.md
+recursive-include swisshr *.png
+recursive-include swisshr *.py
+recursive-include swisshr *.svg
+recursive-include swisshr *.txt
+recursive-exclude swisshr *.pyc
